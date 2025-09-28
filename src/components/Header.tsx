@@ -58,14 +58,14 @@ const Header = () => {
             <motion.a whileHover={{ scale: 1.1 }} href="/#home" onClick={(e) => scrollOrNavigate(e, '#home')} className="hover:text-purple-400 transition">Home</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/#about" onClick={(e) => scrollOrNavigate(e, '#about')} className="hover:text-purple-400 transition">About</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/#projects" onClick={(e) => scrollOrNavigate(e, '#projects')} className="hover:text-purple-400 transition">Projects</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/story" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Story</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/achievements"  target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Achievement</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/faq" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="/story" rel="noopener noreferrer" className="hover:text-purple-400 transition">Story</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="/achievements" rel="noopener noreferrer" className="hover:text-purple-400 transition">Achievement</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="/faq" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://minecraft.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Minecraft</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://link.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Social</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://www.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Blog</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/donate" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Support</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="/portfolio" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="/donate" rel="noopener noreferrer" className="hover:text-purple-400 transition">Support</motion.a>
             
           </div>
         </div>
@@ -83,14 +83,14 @@ const Header = () => {
                 <motion.a whileTap={{ scale: 0.95 }} href="#home" onClick={(e) => scrollOrNavigate(e, '#home')} className="hover:text-purple-400 transition">Home</motion.a>
                 <motion.a whileTap={{ scale: 0.95 }} href="#about" onClick={(e) => scrollOrNavigate(e, '#about')} className="hover:text-purple-400 transition">About</motion.a>
                 <motion.a whileTap={{ scale: 0.95 }} href="#projects" onClick={(e) => scrollOrNavigate(e, '#projects')} className="hover:text-purple-400 transition">Projects</motion.a>
-                <motion.a whileHover={{ scale: 1.1 }} href="/story" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Story</motion.a>
-                <motion.a whileHover={{ scale: 1.1 }} href="/achievements"  target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Achievement</motion.a>
-                <motion.a whileHover={{ scale: 1.1 }} href="/faq" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
+                <motion.a whileHover={{ scale: 1.1 }} href="/story" rel="noopener noreferrer" className="hover:text-purple-400 transition">Story</motion.a>
+                <motion.a whileHover={{ scale: 1.1 }} href="/achievements" rel="noopener noreferrer" className="hover:text-purple-400 transition">Achievement</motion.a>
+                <motion.a whileHover={{ scale: 1.1 }} href="/faq" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
                 <motion.a whileHover={{ scale: 1.1 }} href="https://minecraft.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Minecraft Rel</motion.a>
                 <motion.a whileHover={{ scale: 1.1 }} href="https://link.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Social</motion.a>
                 <motion.a whileTap={{ scale: 0.95 }} href="https://www.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Blog</motion.a>
-                <motion.a whileHover={{ scale: 1.1 }} href="/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
-                <motion.a whileTap={{ scale: 0.95 }} href="/donate" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Support</motion.a>
+                <motion.a whileHover={{ scale: 1.1 }} href="/portfolio" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
+                <motion.a whileTap={{ scale: 0.95 }} href="/donate" rel="noopener noreferrer" className="hover:text-purple-400 transition">Support</motion.a>
               </motion.div>
             </motion.div>
           )}
