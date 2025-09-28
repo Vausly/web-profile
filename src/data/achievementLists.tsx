@@ -1,5 +1,3 @@
-import React from "react";
-
 export const AchievementData = [
     //Achievement template
     // {
@@ -9,7 +7,11 @@ export const AchievementData = [
 
     //Achievement Data
     {
-        title: "My first 10 follower on Facebook",
+        title: "My first 100 followers on Facebook",
+        description: (<> Obtained on 5 September 2025. You can <a href="https://www.facebook.com/photo/?fbid=122168281574383267" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">check the celebration post here</a>! </>)
+    },
+    {
+        title: "My first 10 followers on Facebook",
         description: (<> Obtained on March 2025. <a href="https://www.facebook.com/Vausly" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Visit my Facebook profile</a>! </>)
     },
     {
