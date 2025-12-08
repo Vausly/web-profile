@@ -11,23 +11,20 @@ const Story = () => {
                     <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-purple-300">
                         Short Story
                     </h1>
-                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-purple-300">Origin of the Name</h2>
-                    <p className="mb-4 text-lg text-gray-300">
-                    I was previously using the name Lesunk Media because it was inspired by the Mobile Legends group I've created in early 2019. But in the middle of 2024 I rebranded from Lesunk Media to Vausly Media. I got the name "Vausly" from a combination of 2 things. The word "Vaus" in my brand name was inspirated from a
-                    phishing virus ad website called <a href="https://web.archive.org/web/20180101000000*/vaussneim.net">Vaussneim.net</a> which was active in late 2018 to 2019 which was owned by an ad shortlink site called AdFly (which is now sold to Linkvertise) when I download a Minecraft content. This is because that website was very annoying and hard to forget, especially when I was using a low device. Then -ly is a common
-                    suffix added to adjectives in English language. But the suffix -ly itself is also used by IT startups such as <a href="https://bitly.com/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Bitly</a>, <a href="https://cutt.ly/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Cuttly</a>, <a href="https://adf.ly/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Adfly (now Linkvertise)</a>, <a href="https://t.ly/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">T.ly</a>, <a href="https://buff.ly/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Buff.ly</a>, <a href="https://linkly.co/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Linkly</a>, <a href="https://rebrand.ly/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Rebrandly</a>, etc. Which makes it seem like the name is short and becomes easy to remember. And my own desire is to make my personal brand easy to remember.
-                    And this proved because my channel grow faster than the previous 5 years. That's the short history of how I chose this name.
-                    </p>
-                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-purple-300">How it Started & Things I've Created</h2>
-                    <p className="mb-4 text-lg text-gray-300">
-                    My journey in the internet world began in 2013, when an internet network was installed at home. However, at that time I only used it to play and have fun, such as playing games and watching YouTube.
-                    In 2015 I was very happy with my hobby of writing, even though I was only limited to writing in a note books. At the end of 2015 (December 2015), I started to like writing stories on my cellphone in the Notebook app. This continued in 2016-2017 when I not only write a short fiction stories, I also liked to make my own stickman
-                    comics which are now lost. I published some of my stories to my old website which is now moved to <a href="https://www.vausly.com">vausly.com</a> with the title “Tim Kami” which I published in 2018. I'm also interested in creativity-based games like Minecraft, where you can build anything you want.
-                    In 2016 I watch a creator who was very good at modding in the game Minecraft PE (now Minecraft Bedrock for Android) called Dennis Motta, also known as <a href="https://www.desno365.net/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Desno365</a>. In 2017 I also shared my Minecraft creations such as Maps, Mods, and others that I made on a platform called UTK.io. Which at that time received a positive response from the UTK.io community. Until 
-                    i leave completely on 2019 (this service closed on 01/01/2023). In 2017 i also create my first YouTube channel and getting my first subscriber on that channel (31 December 2017). This event makes me want to become a digital content creator. In the year after, I created a new channel, which is now my main
-                    channel, and uploaded my first video on 31 December 2018. I faced many obstacles until I finally reached my first 1000 subscribers on 23 April 2023 and continued to grow again. I also post my videos on various platforms such as Instagram and TikTok.
-                    </p>
+                    My Journey & The Story Behind “Vausly”
+
+                    My journey in the digital world began in 2013 when internet access first arrived at my home. At first, I only used it for entertainment — playing games and watching videos — but everything changed in 2015 when I started writing short stories in notebook apps on my phone. That was the moment I realized I enjoyed creating, not just consuming.
+
+                    In 2017, I launched my first <a href="https://www.youtube.com/channel/UCabb5RfYa62j44O_uUPZI5A?sub_confirmation=1">YouTube channel just for watching</a>, then create the <a href="https://www.youtube.com/channel/UCC8XmP-H3_bUKavcudu_M9g?sub_confirmation=1">another one</a> and uploaded my first video on 31 December 2018. After many challenges and failures, I finally reached my first 1,000 subscribers in April 2023, a small milestone that meant a lot to me.
                     
+                    In 2018, I published my early fictional stories on my personal website and began shaping my identity as a digital creator. Then, 6 years later, I decided to change my brand name from Lesunk Media to Vausly Media.
+
+                    The name “Vausly” came from a combination of two simple ideas. “Vaus” was inspired by a phishing virus and website system called <a href="https://web.archive.org/web/20181218022622/vaussneim.net">Vaussneim.net</a>, a name that stayed in my memory for years. The suffix “-ly” was chosen because it is commonly used in modern tech brands like Bitly, Linkly, and similar platforms that making the name feel short, clean, and easy to remember. My main goal was to build a brand that feels modern, memorable, and lightweight.
+
+                    From 2016 to 2019, I became very active in creative projects, especially in the Minecraft community especially UTK.io by Maple Media. I created maps, mods, and other in-game content, and shared them through various community platforms. I was also involved with a creator group that helped me grow faster and understand how digital communities work.
+
+                    Today, Vausly Media represents my journey as a creator, developer, and storyteller. Everything I build like websites, games, stories, and tools that all come from that simple passion I discovered back in 2015: the desire to create something meaningful and memorable.
+                                        
                 </div>
             </PageWrapper>
     );
