@@ -15,7 +15,7 @@ const Story = () => {
 
                     <p>My journey in the digital world began in 2013 when internet access first arrived at my home. At first, I only used it for entertainment — playing games and watching videos — but everything changed in 2015 when I started writing short stories in notebook apps on my phone. That was the moment I realized I enjoyed creating, not just consuming.</p>
 
-                    <p>In 2017, I launched my first <a href="https://www.youtube.com/channel/UCabb5RfYa62j44O_uUPZI5A?sub_confirmation=1">YouTube channel just for watching</a>, then create the <a href="https://www.youtube.com/channel/UCC8XmP-H3_bUKavcudu_M9g?sub_confirmation=1">another one</a> and uploaded my first video on 31 December 2018. After many challenges and failures, I finally reached my first 1,000 subscribers in April 2023, a small milestone that meant a lot to me</p>.
+                    <p>In 2017, I launched my first <a href="https://www.youtube.com/channel/UCabb5RfYa62j44O_uUPZI5A?sub_confirmation=1">YouTube channel just for watching</a>, then create the <a href="https://www.youtube.com/channel/UCC8XmP-H3_bUKavcudu_M9g?sub_confirmation=1">another one</a> and uploaded my first video on 31 December 2018. After many challenges and failures, I finally reached my first 1,000 subscribers in April 2023, a small milestone that meant a lot to me.</p>
                     
                     <p>In 2018, I published my early fictional stories on my personal website and began shaping my identity as a digital creator. Then, 6 years later, I decided to change my brand name from Lesunk Media to Vausly Media.</p>
 
