@@ -107,7 +107,7 @@ const DonatePage = () => {
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
           >
-            Buy Me a Coffee
+            Buy Me a Coffee (recommended)
           </motion.button>
           <AnimatePresence>
             {openDropdown === 'bmc' && (
@@ -131,6 +131,7 @@ const DonatePage = () => {
               </motion.div>
             )}
           </AnimatePresence>
+          
         </div>
         {/* Ko-fi */}
         <div className="mb-6 flex flex-col items-center">
@@ -160,6 +161,39 @@ const DonatePage = () => {
                   className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
                 >
                   Go to Ko-Fi
+                </a>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+        {/* Crypto */}
+        <div className="mb-6 flex flex-col items-center">
+          <motion.button
+            onClick={() => toggleDropdown('crypto')}
+            className={buttonClass}
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.97 }}
+          >
+            Tip using Crypto
+          </motion.button>
+          <AnimatePresence>
+            {openDropdown === 'crypto' && (
+              <motion.div
+                variants={dropdownVariant}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+                transition={{ duration: 0.3 }}
+                className="mt-2 px-6 py-4 bg-black/30 rounded-xl text-white text-sm max-w-md w-full"
+              >
+                <p>Support by using crypto, like Solana, Bitcoin, or Ethereum.</p>
+                <a
+                  href="http://simp.ly/p/dqy4n7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
+                >
+                  Support with crypto
                 </a>
               </motion.div>
             )}

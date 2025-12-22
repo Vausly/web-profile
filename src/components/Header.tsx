@@ -11,21 +11,19 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
-  const scrollOrNavigate = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    hash: string
-  ) => {
-    e.preventDefault();
+  const scrollOrNavigate = (e: React.MouseEvent<HTMLAnchorElement>, hash: string) => {
+      if (!hash.startsWith('#')) return;
 
-    if (location.pathname === '/') {
-      const el = document.querySelector(hash);
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      navigate('/' + hash); // akan trigger useScrollToHash di halaman home
-    }
+      e.preventDefault();
 
-    closeMenu();
-  };
+      if (location.pathname === '/') {
+        const el = document.querySelector(hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        navigate('/' + hash);
+      }
+      closeMenu();
+    };
 
   return (
     <motion.nav
