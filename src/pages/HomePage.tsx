@@ -39,7 +39,7 @@ function HomePage() {
         {/* Hero */}
         <motion.section
           id="home"
-          className="min-h-screen flex items-center justify-center relative overflow-hidden"
+          className="min-h-[90vh] flex items-center justify-center relative overflow-hidden"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}

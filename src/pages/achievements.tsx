@@ -15,7 +15,7 @@ const Achievements = () => {
     );
   
     return (
-      <PageWrapper title="Projects | Vausly Media">
+      <PageWrapper title="Achievements | Vausly Media">
         <div className="py-20 px-4 min-h-screen flex flex-col items-center justify-center">
           <div className="max-w-3xl w-full bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 shadow-none">
             <h1 className="text-3xl font-bold text-center mb-6">Achievement lists history</h1>
