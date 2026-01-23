@@ -6,10 +6,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="py-8 bg-black/40 text-center">
       <p className="text-sm">
-        Copyright © 2017-{currentYear} | Page developed by{' '}
+        Copyright © 2017-{currentYear} | {' '}
         <a href="https://www.vausly.com" className="text-purple-400 hover:text-purple-300 transition">
           Vausly Media
-        </a>
+        </a>, All rights reserved.
       </p>
     </footer>
   );

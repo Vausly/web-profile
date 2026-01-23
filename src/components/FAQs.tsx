@@ -7,12 +7,12 @@ const FAQs = () => {
       answer: 'Well, actually my journey is very long and complicated, I can not describe it.'
     },
     {
-      question: 'What inspires your content?',
-      answer: 'Erpan1140 & Zenmatho from Minecraft Java, MC874 from Minecraft Bedrock, JessNoLimit from Mobile Legends, MiauAug, and many others.'
+      question: 'Who inspires your content?',
+      answer: 'Top creators like Erpan1140 & Zenmatho from Minecraft Java, MC874 from Minecraft Bedrock, JessNoLimit from Mobile Legends, MiauAug, and many others.'
     },
     {
       question: 'How can I collaborate with you?',
-      answer: 'I don`t know, maybe one day :)'
+      answer: 'I don`t know, maybe one day, or you can contact me :)'
     }
   ];
 

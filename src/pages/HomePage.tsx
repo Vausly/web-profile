@@ -2,9 +2,10 @@ import React, { lazy, Suspense, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
+import { text } from 'framer-motion/client';
+import { AlignCenter } from 'lucide-react';
 
 // Lazy loaded components
-const Journey = lazy(() => import('../components/Journey'));
 const Projects = lazy(() => import('../components/Projects'));
 const FAQs = lazy(() => import('../components/FAQs'));
 
@@ -39,7 +40,7 @@ function HomePage() {
         {/* Hero */}
         <motion.section
           id="home"
-          className="min-h-[90vh] flex items-center justify-center relative overflow-hidden"
+          className="min-h-[80vh] flex items-center justify-center relative overflow-hidden"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -59,16 +60,21 @@ function HomePage() {
         <section id="about" className="py-20">
           <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12">
             <div className="bg-gradient-to-br from-blue-500 to-purple-500 p-8 rounded-2xl">
-              <h2 className="text-4xl md:text-6xl font-bold">ABOUT ME</h2>
+              <h2 className="text-5xl md:text-6xl font-bold">ABOUT ME</h2>
             </div>
             <div className="space-y-6 text-lg">
               <p>
-                Hello, I am the admin of Vausly Media. Vausly is my digital
-                identity.
+                Hello internet, I am the admin of Vausly Media. Vausly is my digital
+                identity. Founded in 11 November 2017 as a Minecraft in-game creator on UTK.io.
+                Formerly known as Lesunk before rebranded. 
               </p>
               <p>
                 I write articles about internet culture, technology, history,
                 tutorials, games, and personal experiences.
+              </p>
+              <p>
+                I also create content on YouTube, Instagram, TikTok, and Facebook. 
+                Be sure to follow me on those platforms.
               </p>
             </div>
           </div>
@@ -86,16 +92,6 @@ function HomePage() {
             <a href="/projects" className="inline-block mt-8 underline">
               Click here for more Projects
             </a>
-          </div>
-        </section>
-
-        {/* Journey */}
-        <section id="journey" className="py-20">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12">My Journey</h2>
-            <Suspense fallback={<div>Loading journey...</div>}>
-              <Journey />
-            </Suspense>
           </div>
         </section>
 
@@ -121,7 +117,7 @@ function HomePage() {
             href="https://link.vausly.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full font-bold"
+            className="inline-block px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full font-bold text-white hover:scale-105 transition-all duration-300 ease-in-out" 
           >
             Find Me Here
           </a>
