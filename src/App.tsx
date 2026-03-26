@@ -11,7 +11,6 @@ import CopyrightPage from './pages/copyright';
 import NotFoundPage from './pages/NotFoundPage';
 import TOS from './pages/terms';
 import FaqPage from './pages/faq';
-import PortfolioPage from './pages/portfolio';
 import ProjectsPage from './pages/projects';
 import Story from './pages/story';
 import Achievements from './pages/achievements';
@@ -30,7 +29,6 @@ function App() {
             <Route path="/copyright" element={<CopyrightPage />} />
             <Route path="/terms" element={<TOS />} />
             <Route path="/faq" element={<FaqPage />} />
-            <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/story" element={<Story />} />
             <Route path="/achievements" element={<Achievements />} />
