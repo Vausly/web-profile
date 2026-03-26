@@ -12,8 +12,8 @@ const Projects = () => {
     {
       icon: <Video className="w-8 h-8" />,
       title: 'Video Creator',
-      description: 'Creating engaging & unique gaming content across <a href="https://bit.ly/VauslyCH">YouTube</a>, <a href="https://instagr.am/vausly">Instagram</a>, <a href="https://www.tiktok.com/@vausly_official">TikTok</a>, and <a href="https://fb.me/vausly">Facebook</a>.',
-      link: 'https://bio.vausly.com'
+      description: 'Creating engaging & unique gaming content across <a href="https://bit.ly/VauslyCH">YouTube</a>, <a href="https://instagr.am/vausly">Instagram</a>, <a href="https://www.tiktok.com/@vauslyy">TikTok</a>, and <a href="https://fb.me/vausly">Facebook</a>.',
+      link: 'https://link.vausly.com'
     },
     {
       icon: <Gamepad2 className="w-8 h-8" />,

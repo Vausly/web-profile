@@ -54,12 +54,9 @@ const Header = () => {
 
           <div className="hidden lg:flex gap-6">
             <motion.a whileHover={{ scale: 1.1 }} href="/#home" onClick={(e) => scrollOrNavigate(e, '#home')} className="hover:text-purple-400 transition">Home</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/#about" onClick={(e) => scrollOrNavigate(e, '#about')} className="hover:text-purple-400 transition">About</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/#projects" onClick={(e) => scrollOrNavigate(e, '#projects')} className="hover:text-purple-400 transition">Projects</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/story" rel="noopener noreferrer" className="hover:text-purple-400 transition">Story</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/achievements" rel="noopener noreferrer" className="hover:text-purple-400 transition">Achievement</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/faq" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="https://minecraft.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Minecraft</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://link.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Social</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://www.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Blog</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/portfolio" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
@@ -79,12 +76,9 @@ const Header = () => {
             >
               <motion.div className="flex flex-col gap-4 py-4">
                 <motion.a whileHover={{ scale: 0.95 }} href="#home" onClick={(e) => scrollOrNavigate(e, '#home')} className="hover:text-purple-400 transition">Home</motion.a>
-                <motion.a whileHover={{ scale: 0.95 }} href="#about" onClick={(e) => scrollOrNavigate(e, '#about')} className="hover:text-purple-400 transition">About</motion.a>
-                <motion.a whileHover={{ scale: 0.95 }} href="#projects" onClick={(e) => scrollOrNavigate(e, '#projects')} className="hover:text-purple-400 transition">Projects</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="/story" rel="noopener noreferrer" className="hover:text-purple-400 transition">Story</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="/achievements" rel="noopener noreferrer" className="hover:text-purple-400 transition">Achievement</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="/faq" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
-                <motion.a whileHover={{ scale: 0.95 }} href="https://minecraft.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Minecraft Rel</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="https://link.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Social</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="https://www.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Blog</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="/portfolio" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>

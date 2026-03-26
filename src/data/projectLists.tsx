@@ -13,7 +13,7 @@ export const projectData = [
     title: "Short Vertical video on YouTube, TikTok, and Instagram",
     description: (
       <>
-        Still making short video posted on my <a href="https://www.youtube.com/channel/UCC8XmP-H3_bUKavcudu_M9g?sub_confirmation=1" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://www.tiktok.com/@vausly_official" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">TikTok</a>, <a href="https://www.instagram.com/vauslyy/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Instagram</a>, and <a href="https://www.facebook.com/vausly" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Facebook</a> because people like it so much, even i don't like that style of content (the short form of content). 
+        Still making short video posted on my <a href="https://www.youtube.com/channel/UCC8XmP-H3_bUKavcudu_M9g?sub_confirmation=1" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://www.tiktok.com/@7158309537132807174" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">TikTok</a>, <a href="https://www.instagram.com/vauslyy/" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Instagram</a>, and <a href="https://www.facebook.com/vausly" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Facebook</a> because people like it so much, even i don't like that style of content (the short form of content). 
         </>
     )
   },
@@ -63,7 +63,7 @@ export const projectData = [
     title: "Random number generator tool",
     description: (
     <>
-      Fun projects I've created just for practice or fun on GitHub. A simple tool created using HTML, CSS, and JavaScript. <a href='https://www.vausly.my.id/random-number' className='text-purple-400 underline hover:text-purple-300' target='_blank' rel='noopener noreferrer'>Open this tool</a>!
+      Fun projects I've created just for practice or fun on GitHub. A simple tool created using HTML, CSS, and JavaScript. <a href='https://github.com/Vausly/rng' className='text-purple-400 underline hover:text-purple-300' target='_blank' rel='noopener noreferrer'>Open this tool</a>!
   </>
   )
   },
@@ -71,7 +71,7 @@ export const projectData = [
     title: "Simple QR code creator tool",
     description: (
     <>
-      Fun projects I've created just for practice or fun on GitHub. A simple tool created using HTML, CSS, and JavaScript. <a href='https://www.vausly.my.id/qr' className='text-purple-400 underline hover:text-purple-300' target='_blank' rel='noopener noreferrer'>Open this tool</a>!
+      Fun projects I've created just for practice or fun on GitHub. <a href='https://github.com/Vausly/qr-code' className='text-purple-400 underline hover:text-purple-300' target='_blank' rel='noopener noreferrer'>View this project</a>!
   </>
   )
   },

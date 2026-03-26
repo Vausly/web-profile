@@ -7,6 +7,10 @@ export const AchievementData = [
 
     //Achievement Data
     {
+        title: "Getting 5000 followers on TikTok",
+        description: (<> Obtained on 25 December 2025. <a href="https://www.tiktok.com/@7158309537132807174" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">Visit my Facebook profile</a>!</>)
+    },
+    {
         title: "My first 100 followers on Facebook",
         description: (<> Obtained on 5 September 2025. You can <a href="https://www.facebook.com/photo/?fbid=122168281574383267" className="text-purple-400 underline hover:text-purple-300" target="_blank" rel="noopener noreferrer">check the celebration post here</a>! </>)
     },
