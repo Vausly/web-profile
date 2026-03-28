@@ -42,7 +42,8 @@ const Header = () => {
             <div className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-500 to-blue-500" />
             <span className="font-bold">VAUSLY MEDIA</span>
           </motion.div>
-
+          
+          {/*Desktop View/*}
           <motion.button
             className="lg:hidden text-white hover:text-purple-400 transition"
             onClick={toggleMenu}
@@ -59,12 +60,11 @@ const Header = () => {
             <motion.a whileHover={{ scale: 1.1 }} href="/faq" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://link.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Social</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="https://www.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Blog</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="/portfolio" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="/donate" rel="noopener noreferrer" className="hover:text-purple-400 transition">Support</motion.a>
-            
           </div>
         </div>
 
+        {/*Mobile View/*}
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
@@ -81,7 +81,6 @@ const Header = () => {
                 <motion.a whileHover={{ scale: 0.95 }} href="/faq" rel="noopener noreferrer" className="hover:text-purple-400 transition">FAQs</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="https://link.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Social</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="https://www.vausly.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Blog</motion.a>
-                <motion.a whileHover={{ scale: 0.95 }} href="/portfolio" rel="noopener noreferrer" className="hover:text-purple-400 transition">Portfolio</motion.a>
                 <motion.a whileHover={{ scale: 0.95 }} href="/donate" rel="noopener noreferrer" className="hover:text-purple-400 transition">Support</motion.a>
               </motion.div>
             </motion.div>
