@@ -43,7 +43,7 @@ const Header = () => {
             <span className="font-bold">VAUSLY MEDIA</span>
           </motion.div>
           
-          {/*Desktop View/*}
+          {/* Desktop View */}
           <motion.button
             className="lg:hidden text-white hover:text-purple-400 transition"
             onClick={toggleMenu}
@@ -64,7 +64,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/*Mobile View/*}
+        {/* Mobile View */}
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
