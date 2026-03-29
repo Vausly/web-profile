@@ -53,6 +53,35 @@ function HomePage() {
             <p className="mt-4 text-lg md:text-xl text-purple-300 tracking-widest">
               SINCE 2017
             </p>
+            {/* CTA Buttons */}
+            <div className="mt-8 flex flex-col md:flex-row gap-4 justify-center items-center">
+              {/* Visit Blog */}
+              <motion.a
+                href="https://www.vausly.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full font-bold text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6 }}
+              >
+                Visit Blog
+              </motion.a>
+              {/* View Projects */}
+              <motion.a
+                href="/projects"
+                className="px-8 py-4 border border-purple-400 text-purple-300 rounded-full font-bold hover:bg-purple-500/20 transition-all duration-300 ease-in-out"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.8 }}
+              >
+                View Projects
+              </motion.a>
+            </div>
           </div>
         </motion.section>
 
