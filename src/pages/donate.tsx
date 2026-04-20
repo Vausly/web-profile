@@ -99,7 +99,7 @@ const DonatePage = () => {
           </AnimatePresence>
         </div>
 
-        {/* Buy Me a Coffee */}
+        {/* PayPal */}
         <div className="mb-6 flex flex-col items-center">
           <motion.button
             onClick={() => toggleDropdown('bmc')}
@@ -107,7 +107,7 @@ const DonatePage = () => {
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
           >
-            Buy Me a Coffee (recommended)
+            PayPal (recommended)
           </motion.button>
           <AnimatePresence>
             {openDropdown === 'bmc' && (
@@ -119,53 +119,20 @@ const DonatePage = () => {
                 transition={{ duration: 0.3 }}
                 className="mt-2 px-6 py-4 bg-black/30 rounded-xl text-white text-sm max-w-md w-full"
               >
-                <p>Buy Me a Coffee is a global platform to support creators with simple donations.</p>
+                <p>PayPal is a global platform to support creators with simple donations.</p>
                 <a
-                  href="https://bmc.link/vausly"
+                  href="https://paypal.me/vauslyx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
                 >
-                  Go to BMC
-                </a>
-              </motion.div>
-            )}
-          </AnimatePresence>
-          
-        </div>
-        {/* Ko-fi */}
-        <div className="mb-6 flex flex-col items-center">
-          <motion.button
-            onClick={() => toggleDropdown('ko-fi')}
-            className={buttonClass}
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            Tip using Ko-Fi
-          </motion.button>
-          <AnimatePresence>
-            {openDropdown === 'ko-fi' && (
-              <motion.div
-                variants={dropdownVariant}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                transition={{ duration: 0.3 }}
-                className="mt-2 px-6 py-4 bg-black/30 rounded-xl text-white text-sm max-w-md w-full"
-              >
-                <p>Ko-Fi is a global platform to support creators with simple donations.</p>
-                <a
-                  href="https://ko-fi.com/vauslyy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
-                >
-                  Go to Ko-Fi
+                  Go to PayPal
                 </a>
               </motion.div>
             )}
           </AnimatePresence>
         </div>
+        
         {/* Crypto */}
         <div className="mb-6 flex flex-col items-center">
           <motion.button
@@ -188,7 +155,7 @@ const DonatePage = () => {
               >
                 <p>Support by using crypto, like Solana, Bitcoin, or Ethereum.</p>
                 <a
-                  href="http://simp.ly/p/dqy4n7"
+                  href="https://vausly.net/cryptotip"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
